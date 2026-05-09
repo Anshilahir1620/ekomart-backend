@@ -1,0 +1,51 @@
+# ----------------------
+# Environment variables
+# ----------------------
+.env
+
+# ----------------------
+# Virtual Environment
+# ----------------------
+venv/
+ENV/
+env/
+.venv/
+
+# ----------------------
+# Python cache
+# ----------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ----------------------
+# Alembic
+# ----------------------
+alembic/versions/__pycache__/
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# OS / Editor files
+# ----------------------
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ----------------------
+# Testing / coverage
+# ----------------------
+.coverage
+htmlcov/
+
+# ----------------------
+# Build / dist
+# ----------------------
+build/
+dist/
+*.egg-info/
