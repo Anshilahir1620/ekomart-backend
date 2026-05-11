@@ -55,6 +55,7 @@ app.mount(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
+        "https://ekomart-frontend.vercel.app",
         "http://localhost:3000",
         "http://127.0.0.1:3000",
     ],
@@ -77,4 +78,4 @@ app.include_router(payment_router)
 app.include_router(coupons_router)
 app.include_router(admin_router)
 app.include_router(daily_offer_router)
-app.include_router(search_router)
+app.include_router(search_router)
